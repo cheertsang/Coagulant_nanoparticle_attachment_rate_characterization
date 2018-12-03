@@ -2,9 +2,12 @@
 #### Desiree Sausele and Meera Shah
 #### November 20, 2018
 
+<!-- Hi Desiree and Meera! I'll put my comments like this -->
 
 ## Abstract
 Attachment of free coagulant nanoparticles to the flocculator wall decreases the amount of coagulant available for flocculation of clay particles. However, coagulant bounded to clay cannot attach to the flocculator wall. The Fall 2018 Coagulant - Nanoparticle Attachment Rate Characterization (C-NARC) team’s goal was to determine the rate at which free coagulant attached to the flocculator wall and to calculate the rate at which the coagulant attached to clay. The objective was to determine the first order rate constants for loss of free coagulant nanoparticles to the flocculator walls and for attachment of coagulant to clay particles at varying clay concentrations and velocity gradients.
+
+<!-- Add a sentence or two summarizing your results this semester! -->
 
 ## Introduction
 Attachment of coagulant nanoparticles to the wall of the flocculator perpetuates several complications within an AguaClara plant. It primarily decreases the efficiency of the flocculator by increasing the rate at which head loss accumulates as water progresses through the plant, and thus, increases the energy demands of the plant. Attachment of the nanoparticles to the flocculator walls also increases coagulant wastage, resulting in higher doses of expensive coagulant being required to compensate for the loss.
@@ -14,14 +17,12 @@ Although Fall 2018 is the first semester for C-NARC research, research conducted
 The C-NARC team was created to quantify the relationships identified by the Rapid Mix CC teams. The team hypothesizes that head loss accumulation in the flocculator is first order with respect to distance along the flocculator. C-NARC seeks to determine the first order rate constants for the loss of coagulant to the flocculator walls by varying the velocity gradient and turbidity. The loss of coagulant to the flocculator walls is determined by measuring the rate of accumulation of head loss along the length of the flocculator tube. Head loss can be measured by attaching four pressure sensors at equal intervals along the length of the flocculator pipe.
 
 
-
-
 ## Literature Review
 #### Coagulation and Flocculation
-AguaClara plants are heavily reliant on coagulation and flocculation processes to ensure that treated effluent meets water quality standards. Flocculation is the process by which particles collide and attach to each other, forming an agglomeration of contaminants. Coagulant nanoparticles provide a sticky surface for the successful attachment and aggregation of contaminant particles [(Guzman, Weber-Shirk, O’Connor, Pennock, Lion, & Du, 2018a)](https://aguaclara.github.io/Textbook/).  Generally, highly polar aluminum and iron-based coagulants are used in water treatment, and these coagulants precipitate in water to form nanoparticles. However, these coagulants are acidic and contribute to a decrease in the pH of water below the Environmental Protection Agency’s standards for safe drinking water. AguaClara plants use Polyaluminum Chloride (PACl) as an alternative because it is less acidic and can be added in smaller doses compared to other aluminum-based coagulants, like alum [(Guzman et. al., 2018b)](https://aguaclara.github.io/Textbook/). The mechanism of flocculation is determined by the type of particle the coagulant is attaching to: Coagulant nanoparticles can attach to dissolved organic matter, organic suspended solids such as pathogens and inorganic suspended solids such as clay [(Guzman et. al., 2018b)](https://aguaclara.github.io/Textbook/). Upon the addition of the coagulant, the rate of coagulation is limited by how fast the precipitation of the coagulants in water to form nanoparticles occurs, how quickly the nanoparticles are transported to the contaminants, and the rate at which the contaminants adhere to the nanoparticles [(Guzman et. al., 2018c)](https://aguaclara.github.io/Textbook/).
+AguaClara plants are heavily reliant on coagulation and flocculation processes to ensure that treated effluent meets water quality standards. Flocculation is the process by which particles collide and attach to each other, forming an agglomeration of contaminants. Coagulant nanoparticles provide a sticky surface for the successful attachment and aggregation of contaminant particles [(Guzman, Weber-Shirk, O’Connor, Pennock, Lion, & Du, 2018a)](https://aguaclara.github.io/Textbook/).  Generally, highly polar aluminum and iron-based coagulants are used in water treatment, and these coagulants precipitate in water to form nanoparticles. However, these coagulants are acidic and contribute to a decrease in the pH of water below the Environmental Protection Agency’s standards for safe drinking water. AguaClara plants use Polyaluminum Chloride (PACl) as an alternative because it is less acidic and can be added in smaller doses compared to other aluminum-based coagulants, like alum [(Guzman et. al., 2018b)](https://aguaclara.github.io/Textbook/). The mechanism of flocculation is determined by the type of particle the coagulant is attaching to: coagulant nanoparticles can attach to dissolved organic matter, organic suspended solids such as pathogens and inorganic suspended solids such as clay [(Guzman et. al., 2018b)](https://aguaclara.github.io/Textbook/). Upon the addition of the coagulant, the rate of coagulation is limited by how fast the precipitation of the coagulants in water to form nanoparticles occurs, how quickly the nanoparticles are transported to the contaminants, and the rate at which the contaminants adhere to the nanoparticles [(Guzman et. al., 2018c)](https://aguaclara.github.io/Textbook/).
 
 #### Head Loss
-In fluid mechanics, head refers to the energy of a fluid in terms of length and head loss is defined as the loss of energy of a fluid as it flows through a space [(Guzman et al., 2018d)](https://aguaclara.github.io/Textbook/).
+In fluid mechanics, head refers to the energy of a fluid in terms of length, and head loss is defined as the loss of energy of a fluid as it flows through a space [(Guzman et al., 2018d)](https://aguaclara.github.io/Textbook/).
 
 As coagulant builds up on the flocculator walls, it effectively reduces the cross-sectional area through which water flows thus increasing head loss as seen in Figure 1.
 
@@ -34,17 +35,17 @@ Figure 1: Coagulant build up on flocculator walls eventually leads to a reduced 
 </div>
 
 
-In the model coiled flocculators the cross-sectional area is a circle and the relationship between pipe diameter and head loss can be described by the Darcy-Weisbach equation:
+In the model coiled flocculators, the cross-sectional area is a circle and the relationship between pipe diameter and head loss can be described by the Darcy-Weisbach equation:
 $$ \Delta h = \frac{f_DLV^2}{2Dg} $$
 In this equation, $\mathrm{\Delta h}$ is the head loss due to friction in the pipe ($\mathrm{m}$), $\mathrm{f_D}$ is the Darcy friction factor, L is the length of the pipe ($\mathrm{m}$), V is the velocity of the fluid through the pipe ($\mathrm{\frac{m}{s}}$), D is the diameter of the pipe ($\mathrm{m}$), and g is the acceleration due to gravity ($\mathrm{\frac{m}{s^2}}$).
 A change in pressure can be described by an alternate form of the Darcy-Weisbach equation that includes the fluid density, ($\mathrm{\rho}$):
 $$ \Delta p = \frac{f_DLV^2\rho }{2D} = \rho g \Delta h$$
-Using this formula the team can relate the observed pressure changes to head loss accumulation.
+Using this formula, the team can relate the observed pressure changes to head loss accumulation.
 
 ## Previous Work
 Previous research conducted by AguaClara’s Rapid Mix CC team determined that once the clay particles bound to the coagulant, the nanoparticles did not attach to the flocculator walls. Moreover, increased coagulant accumulation to the walls of a straight-tube flocculator model resulted in an increase in the accumulation of head loss. This was because the cross-sectional area of the tubing through which the water flowed was reduced. Furthermore, it was determined that coagulant attachment increased at lower velocities of water since not enough torque was produced to prevent the coagulant from attaching to the walls [(Krishnamoorthysujatha, Moraes, & Escanciano, 2016)](https://github.com/AguaClara/contact_chamber/blob/master/rapid-mix-contact-fall2016.pdf). Coagulant buildup also increased at decreasing clay concentrations since the coagulant preferentially attached to the larger surface area of the flocculator wall [(Akpan, Teuffer, & Zhang, 2017)](https://github.com/AguaClara/contact_chamber/blob/master/rapid-mix-contact.pdf).
 
-Other teams have calculated head loss by measuring the change in pressure before and after the flocculator.  This method returns the overall head loss in the flocculator, but the C-NARC team aims to measure how the rate of head loss accumulation changes over the length of the flocculator.  To achieve this, the team will employ the same method just at shorter intervals.  Installing four pressure sensors at equal intervals over the flocculator will allow the team to see how the rate of head loss accumulation changes and thus know the rate at which coagulant is sticking to the flocculator walls. The team expects the attachment of coagulant to the clay and flocculator surfaces to be first order with respect to time and thus distance along the flocculator.  It follows that head loss accumulation in the flocculator should be first order with respect to distance along the flocculator.
+Other teams have calculated head loss by measuring the change in pressure before and after the flocculator.  This method returns the overall head loss in the flocculator, but the C-NARC team aims to measure how the rate of head loss accumulation changes over the length of the flocculator.  To achieve this, the team will employ the same method, but at shorter intervals.  Installing four pressure sensors at equal intervals over the flocculator will allow the team to see how the rate of head loss accumulation changes and thus find the rate at which coagulant is sticking to the flocculator walls. The team expects the attachment of coagulant to the clay and flocculator surfaces to be first order with respect to time, and thus distance, along the flocculator.  It follows that head loss accumulation in the flocculator should be first order with respect to distance along the flocculator.
 
 ## Methods
 
@@ -79,18 +80,35 @@ The experiment setup shown models the water flow through a plant on a smaller, l
 6. The flocculator has four pressure sensors attached at equal distances by push-to-connect fittings to measure the pressure differences across the length of the flocculator.
 7. The red effluent line transports wastewater out of the system.
 
-Water was introduced into the system through the influent line. The flow rate of the water was maintained at a constant rate of 76 rpm by the water pump. The water was then pumped into the inlet of flow accumulator, which is a reservoir that allows continuous water flow through the system by reducing fluctuations caused by the pump. It consisted of a bottle with two taps: one for the entry of water and the other for the exit. At the beginning of an experiment, the bottle was filled with water up to just above the two holes. The bottle was then capped to trap the air inside and pressurize itself, thus maintaining the water level at a steady state [(Tsang et. al., 2018)](https://github.com/AguaClara/contact_chamber/blob/master/ContactChamber_Spring2018.md). The water then flowed out of the flow accumulator, after which clay was pumped into the water.
+Water was introduced into the system through the influent line. The flow rate of the water was maintained at a constant rate of 76 rpm by the water pump.
+
+<!-- It would be helpful to include the actual flow rate in mL/s in addition to RPM, since RPM doesn't really mean anything quantitatively without specifying the tubing size -->
+
+The water was then pumped into the inlet of flow accumulator, which is a reservoir that allows continuous water flow through the system by reducing fluctuations caused by the pump. It consisted of a bottle with two taps: one for the entry of water and the other for the exit. At the beginning of an experiment, the bottle was filled with water up to just above the two holes. The bottle was then capped to trap the air inside and pressurize itself, thus maintaining the water level at a steady state [(Tsang et. al., 2018)](https://github.com/AguaClara/contact_chamber/blob/master/ContactChamber_Spring2018.md). The water then flowed out of the flow accumulator, after which clay was pumped into the water.
 A stock solution of clay was prepared, and the concentration at which it was introduced into the water by the clay pump was determined by the turbidity, measured by the influent turbidimeter.  The speed of the clay pump was varied by the Proportional - Integral - Derivative (PID) control to reach the target turbidity.  
 
-A stock solution of PACl coagulant with the concentration of 0.1418g/L was also prepared and introduced into the clay-water mixture, after the clay-water mixture was pumped out of the turbidimeter, at a constant rate of 20 rpm. The flow rate contributions by the coagulant and clay pump were neglected since microbore tubing, which has a negligible flow rate contribution, was used. The water-clay-coagulant mixture was then pumped into the coiled flocculator.
+A stock solution of PACl coagulant with the concentration of 0.1418g/L was also prepared and introduced into the clay-water mixture, after the clay-water mixture was pumped out of the turbidimeter, at a constant rate of 20 rpm.
 
-The coiled flocculator was made of tubing wound around a cardboard tube. This was the section where the clay molecules collide with coagulant particles to form flocs [(Selimgir, M., Lo, R., Matai, K., 2018)](https://github.com/AguaClara/high_g_flocculation/blob/master/HighGFlocculation_Spring2018_ResearchReportFinalDraft.md). Four pressure sensors were attached, at equal distances, to the flocculator. The sensors measured the difference in pressure between the two points where they were attached. Four sensors were used in order to determine how the pressure, and thus, head loss changed along the length of the flocculator. Finally, the water was pumped out of the system through the effluent line.
+<!-- Again, specify flow rate in mL/s -->
+
+The flow rate contributions by the coagulant and clay pump were neglected since microbore tubing, which has a negligible flow rate contribution, was used. The water-clay-coagulant mixture was then pumped into the coiled flocculator.
+
+The coiled flocculator was made of tubing wound around a cardboard tube. This was the section where the clay molecules collide with coagulant particles to form flocs [(Selimgir, M., Lo, R., Matai, K., 2018)](https://github.com/AguaClara/high_g_flocculation/blob/master/HighGFlocculation_Spring2018_ResearchReportFinalDraft.md).
+
+<!-- clay *particles* instead of molecules? -->
+
+Four pressure sensors were attached, at equal distances, to the flocculator.
+
+<!-- Might be helpful to include a photo of the flocculator with the 4 sensors attached with dimensions labeled -->
+
+The sensors measured the difference in pressure between the two points where they were attached. Four sensors were used in order to determine how the pressure, and thus, head loss changed along the length of the flocculator. Finally, the water was pumped out of the system through the effluent line.
 
 #### Cleaning
 After each experimental trial, air bubbles were introduced into the system at 1 rpm by the air pump. Water was also continually pumped at 76 rpm by the water pump to carry the air bubble through the flocculator. This cleaning system was used to scrape and clean any coagulant buildup on the flocculator wall in preparation for the next trial. Any fluids that entered the microbore tubing during the experiment, while the air pump was off, was contained in the 1L bottle attached to the air pump.
 
 ### Procedure
 
+<!-- ProCoDA = Process Control and Data Acquisition (the A is capitalized) https://monroews.github.io/EnvEngLabTextbook/ProCoDA/ProCoDA.html -->
 The system is fully automated through ProCoDa to run through three trials at each target NTU (100, 80, 60, 40, 20), starting at the highest turbidity target and ending with the lowest. PID CONTROL turns on the clay pump and runs for 15 minutes to allow for the system to reach and maintain the target turbidity. The next state, EXPERIMENT, starts the coagulant pump and runs for three hours. This is the state from which the team collects data. After EXPERIMENT is CLEANING (AIR) which runs for four minutes. This state stops the coagulant and clay pump and starts the 1 RPM air pump to introduce air into the system. The last state is CLEANING (WATER) which runs for five minutes and turns off the air pump to allow the water to force the air bubbles through the system. For more details on the team's ProCoDa method file, refer to the manual.
 
 First, the C-NARC ProCoDa method file was opened and the blue influent valve was set to the open position In manual operation, ProCoDa's state was changed to ON, which turns on the mixer and the water pump. The water pump was manually started at 76rpm and the red effluent valve was set to the open position after a brief delay to prevent back-flow of wastewater. Then, ProCoda was switched from manual to automatic operation, after which the clay pump automatically turns on. Fifteen minutes later, before ProCoDa switched to the EXPERIMENT state, the pressure sensors were zeroed through ProCoDa. The experiment was left to run for a set number of trials. Finally, the change in pressure and the accumulation of head loss in the flocculator were observed for each trial.
@@ -99,6 +117,11 @@ First, the C-NARC ProCoDa method file was opened and the blue influent valve was
 ## Results and Analysis
 
 The trials for the current iteration of the experimental design were run in triplicates, with each triplicate containing 3 trials of the same NTU. The average of each triplicate was then taken. Two full-length experiments were conducted, and the results are shown below.
+
+<!-- TRIPLICATE! What a fun word! -->
+<!-- I'm a little confused though - from what I understand, you planned to run 3 experiments of the same NTU, with 3 trials each? And you took the average pressure loss from each experiment over the 3 trials? Maybe make a table to describe this? -->
+
+<!-- So after reading your results section and looking at the graphs, I got it: you're saying you did your experiments 3 at a time at the same turbidity, took the average headloss over the 3 trials. Maybe clarify this a bit in the procedure section  -->
 
 #### Experiment 1
 
@@ -166,7 +189,7 @@ The graph in Figure 8 shows a rapid increase and decrease in head loss at approx
 align = "center"
 src= "https://github.com/AguaClara/Coagulant_nanoparticle_attachment_rate_characterization/blob/master/Images/Exp6table.png?raw=true" >
 
-Table 1: The rate of change of head loss in each section of the flocculator for each turbidity for experiment 1.  
+Table 1: The rate of change of head loss in each section of the flocculator for each influent turbidity for experiment 1.  
 
 </div>
 
@@ -183,6 +206,9 @@ src= "https://github.com/AguaClara/Coagulant_nanoparticle_attachment_rate_charac
 Figure 9. Relationship between the rate of head loss accumulation and turbidity.
 
 </div>
+
+<!-- Specify in the figure caption what "PS 0,1,2,3" mean in your graph legend -->
+
 
 The team expected to see the overall head loss increase as turbidity decreased. This is because as turbidity decreases, there is less clay for coagulant to attach to and thus, there are more free coagulant nanoparticles that can attach to the flocculator walls. However, for the first section of the flocculator, there was a decrease in head loss accumulation as turbidity decreased from 100 to 40 NTU, as seen in Table 1 and on Figure 9. This result suggests that the clay or a coagulant-clay mixture may be sticking to the flocculator walls. For the second and third section of the flocculator, there is an inverse relationship between turbidity and rate of head loss accumulation, as expected. For the fourth section of the flocculator, there is no relationship seen between turbidity and rate of head loss accumulation. The results also show that at 20 NTU, the rate of head loss accumulation increased in the first three sections of the flocculator. The team does not understand the reasons for these anomalies.
 
@@ -262,16 +288,34 @@ src= "https://github.com/AguaClara/Coagulant_nanoparticle_attachment_rate_charac
 Figure 15:
 </div>
 
+<!-- Oh no, a missing figure caption! :o -->
+
 Figure 15 shows that for each section of the flocculator, the rate of head loss accumulation increased as turbidity decreased which supports the team's hypothesis. In contrast, the first section of the flocculator in Experiment 1 showed that decreasing turbidity decreased the rate of head loss accumulation.
 
-During Experiment 2, the team observed the clay settling in the tubing after exiting the turbidimeter; this means that less clay entered the flocculator and the turbidity of the water in the flocculator was not that determined by the turbidimeter. This could explain the discrepancies in the results between Experiment 1 and Experiment 2.
+During Experiment 2, the team observed the clay settling in the tubing after exiting the turbidimeter;
+
+<!-- What tubing? Specify that you're talking about the sed tank  -->
+
+this means that less clay entered the flocculator and the turbidity of the water in the flocculator was not that determined by the turbidimeter.
+
+<!-- I'm confused by what you mean by this sentence -->
+
+This could explain the discrepancies in the results between Experiment 1 and Experiment 2.
 
 For results of experiments run with the other iterations of experimental designs, refer to the manual.
 
 ## Conclusions
-The first half of the semester was focused on designing the experiment and assembling the modified coiled flocculator. The team designed three iterations of the experimental design and ran several experimental trials, as shown in the "Previous Iterations of Experimental Trials" in the manual. Although the results from these trials support the hypothesis that the rate of head loss accumulation decreases over the length of the flocculator, the team wanted to address some of the issues with the experimental design and conduct more experiments before attempting to characterize the rate of free coagulant nanoparticle attachment.
+The first half of the semester was focused on designing the experiment and assembling the modified coiled flocculator.
 
-In the final iteration of the experiment, the pressure sensors were changed from 200kPa to 7kPa, and the system was automated using ProCoDa. The team conducted two successful experiments. The results from these experiments support the hypothesis that the rate of head loss accumulation is greatest in the first section of the flocculator and decreases over the length of the flocculator. This trend was visible at each clay concentration.
+<!-- specify that by "modified flocculator", you mean the flocculator with the 4 sensors attached, instead of a new flocculator design  -->
+
+The team designed three iterations of the experimental design and ran several experimental trials, as shown in the "Previous Iterations of Experimental Trials" in the manual. Although the results from these trials support the hypothesis that the rate of head loss accumulation decreases over the length of the flocculator, the team wanted to address some of the issues with the experimental design and conduct more experiments before attempting to characterize the rate of free coagulant nanoparticle attachment.
+
+In the final iteration of the experiment, the pressure sensors were changed from 200kPa to 7kPa, and the system was automated using ProCoDa. The team conducted two successful experiments.
+
+<!-- Define "success"  -->
+
+The results from these experiments support the hypothesis that the rate of head loss accumulation is greatest in the first section of the flocculator and decreases over the length of the flocculator. This trend was visible at each clay concentration.
 
 The relationship between the rate of head loss accumulation and the clay concentration is not clear. The team expected to see an inverse relationship: the rate of head loss accumulation increases with decreasing turbidity. However, the first section of the flocculator in Experiment 1 showed that a decrease in turbidity resulted in a decrease in head loss accumulation.
 
@@ -279,11 +323,21 @@ The results of these experiments can be used by AguaClara to determine where in 
 
 
 ## Future Work  
-Future C-NARC teams should alter the experimental apparatus to reduce the settling of clay in the tubing before running additional experiments. Shortening the amount of tubing between the turbidimeter and flocculator entrance is a possible solution that should be tested. Adjusting where the coagulant is introduced into the system may also help remedy this.  Another option is to replace the clay with red dye, which is less likely to settle out. Because red dye flocs are easier to see than clay flocs, the dye will also provide a clearer visual of what is happening in the flocculator. Red dye may also help determine if only coagulant, or both clay and coagulant are attaching to the flocculator walls. However, clay-PACl interactions and dye-PACl interactions may be different to use dye as a proxy for clay.
+Future C-NARC teams should alter the experimental apparatus to reduce the settling of clay in the tubing before running additional experiments.
+
+<!-- I'm confused about what tubing this is referring to. Do you mean the sed tank? Maybe include a picture if possible? -->
+
+Shortening the amount of tubing between the turbidimeter and flocculator entrance is a possible solution that should be tested. Adjusting where the coagulant is introduced into the system may also help remedy this.  Another option is to replace the clay with red dye, which is less likely to settle out. Because red dye flocs are easier to see than clay flocs, the dye will also provide a clearer visual of what is happening in the flocculator. Red dye may also help determine if only coagulant, or both clay and coagulant are attaching to the flocculator walls. However, clay-PACl interactions and dye-PACl interactions may be different to use dye as a proxy for clay.
+
+<!-- "However, clay-PACl interactions and dye-PACl interactions may be too different to use dye as a proxy for clay." I think you're saying that dye-PACl may not accurately represent clay-PACl interactions due to the difference in the types of of interactions between the two different materials? -->
 
 After addressing the issue of settling clay, future teams should run more experiments to confirm the results from this semester. The team also needs to run trials with a varied velocity gradient. Next, the team will need to calculate the first order rate constant for the attachment of coagulant nanoparticles to the clay and to the flocculator surfaces.
 
-A question arose during experimentation that can be explored in the future. After noticing that the coagulant was introduced into the system too far from the flocculator, the team questioned if other surfaces, such as the microbore tube through which coagulant was pumped, were also attaching free coagulant nanoparticles. This may become an issue in characterizing nanoparticle attachment rate if the actual coagulant concentration entering the flocculator cannot be accurately determined. A future task is to determine if coagulant attachment is occurring to other surfaces of the tubing and the extent to which this is occurring.
+A question arose during experimentation that can be explored in the future. After noticing that the coagulant was introduced into the system too far from the flocculator, the team questioned if other surfaces, such as the microbore tube through which coagulant was pumped, were also attaching free coagulant nanoparticles.
+
+<!-- "the team questioned if free coagulant nanoparticles also attached to other surfaces, such as the microbore tubing through which coagulant was pumped" -->
+
+This may become an issue in characterizing nanoparticle attachment rate if the actual coagulant concentration entering the flocculator cannot be accurately determined. A future task is to determine if coagulant attachment is occurring to other surfaces of the tubing and the extent to which this is occurring.
 
 
 ## References
@@ -498,3 +552,5 @@ Trial 5 was conducted with the third iteration of the experimental design.
 The team observed that a mixture of water and air had entered the tubing connecting the pressure sensors to the flocculator. In order to prevent this from occurring in future experiments, the tubing was shortened and the pressure sensors were oriented on the top of the flocculator.
 
 The pressure sensors were changed from 200kPa to 7kPa sensors to get more accurate results since the 7kPa sensors are more sensitive to pressure changes.
+
+<!-- This section was a great inclusion to your report - it showed all the problems you encountered and how to troubleshoot! This is a great idea! -->
